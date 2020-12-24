@@ -275,6 +275,8 @@ body {
 .logo {
   background-image: url(../svg/logo.svg);
   background-repeat: no-repeat;
+  height: 36px;
+  width: 95px;
 }
 
 .header__nav {
