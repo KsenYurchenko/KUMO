@@ -718,7 +718,7 @@ body {
   background-color: #16110D;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   align-items: start;
 }
 .block_basic-second .block__container {
@@ -736,7 +736,7 @@ body {
   background-color: #16110D;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   align-items: start;
 }
 .block_basic-third .block__container {
