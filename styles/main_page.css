@@ -555,6 +555,7 @@ body {
   width: 100%;
   bottom: 0;
   text-align: center;
+  margin-left: 100px;
 }
 .slider-dot-control label {
   cursor: pointer;
@@ -965,7 +966,7 @@ body {
   z-index: 2;
   position: absolute;
   bottom: 215px;
-  left: 350px;
+  left: 450px;
 }
 .block_basic-first .slider-prev-next-control .arrow_prev {
   display: inline-flex;
