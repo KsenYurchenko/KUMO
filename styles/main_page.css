@@ -1,32 +1,71 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/OpenSansRegular.ttf");
-  src: local("Open Sans Regular"), url("../fonts/OpenSansRegular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/OpenSansBold.ttf");
-  src: local("Open Sans Bold"), url("../fonts/OpenSansBold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/OpenSansRoboto.ttf");
-  src: local("Roboto"), url("../fonts/OpenSansRoboto.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/RobotoBold.ttf");
-  src: local("Roboto Bold"), url("../fonts/RobotoBold.ttf") format("truetype");
-}
+/* open-sans-regular - latin */
+ @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v18-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/open-sans-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/open-sans-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/open-sans-v18-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+  /* open-sans-700 - latin */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/open-sans-v18-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/open-sans-v18-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/open-sans-v18-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v18-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v18-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/open-sans-v18-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+  
+  /* roboto-mono-regular - latin */
+  @font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-mono-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-mono-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-mono-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-mono-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-mono-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-mono-v12-latin-regular.svg#RobotoMono') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-mono-700 - latin */
+  @font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-mono-v12-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-mono-v12-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-mono-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-mono-v12-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-mono-v12-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-mono-v12-latin-700.svg#RobotoMono') format('svg'); /* Legacy iOS */
+  }
+  
+  /* open-sans-700italic - latin */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/open-sans-v18-latin-700italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/open-sans-v18-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/open-sans-v18-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v18-latin-700italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v18-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/open-sans-v18-latin-700italic.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
 .color_white {
   color: #fff;
 }
@@ -35,34 +74,7 @@
   color: #ffbe2e;
 }
 
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/OpenSansRegular.ttf");
-  src: local("Open Sans Regular"), url("../fonts/OpenSansRegular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Open Sans Bold";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/OpenSansBold.ttf");
-  src: local("Open Sans Bold"), url("../fonts/OpenSansBold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/OpenSansRoboto.ttf");
-  src: local("Roboto"), url("../fonts/OpenSansRoboto.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Roboto Bold";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/RobotoBold.ttf");
-  src: local("Roboto Bold"), url("../fonts/RobotoBold.ttf") format("truetype");
-}
+
 .icon-angle-down-slim {
   width: 12px;
   height: 6px;
@@ -344,7 +356,7 @@ body {
   width: 500px;
 }
 .header__nav .header__item {
-  font-family: Roboto, "Open Sans", sans-serif;
+  font-family: "Roboto Mono", "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -452,7 +464,7 @@ body {
   display: inline-block;
   height: 35px;
   border-radius: 22px;
-  font-family: Montserrat;
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -470,7 +482,7 @@ body {
   color: #16110D;
 }
 .block_basic .block__container .block__title {
-  font-family: Roboto Mono, sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
@@ -487,7 +499,7 @@ body {
   color: #ffbe2e;
 }
 .block_basic .block__container .block__description {
-  font-family: "Open Sans, sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -506,7 +518,7 @@ body {
 .block_basic .block__container .block_read-more .block_text {
   width: 80px;
   height: 23px;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -668,7 +680,7 @@ body {
 }
 
 .block__description {
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -688,7 +700,7 @@ body {
 .block_read-more .block_text {
   width: 80px;
   height: 23px;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -977,7 +989,7 @@ body {
 .block_basic-first .slider-wrapper article .info .block_read-more .block_text {
   width: fit-content;
   height: 23px;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -1219,7 +1231,7 @@ body {
 .block_basic-second .block__container .block__description .block__about .link_btn .block_btn {
   height: fit-content;
   width: fit-content;
-  font-family: "Open Sans Bold", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -1417,7 +1429,7 @@ body {
 .block_basic-fourth .block__container .block__title {
   width: fit-content;
   height: fit-content;
-  font-family: "Roboto Mono Bold", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 51px;
@@ -1596,7 +1608,7 @@ body {
 .block_basic-fifth .block__container .slider_second .slides .slides__text .slides__title {
   width: fit-content;
   height: fit-content;
-  font-family: "Roboto Mono Bold", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -1730,7 +1742,7 @@ body {
 .block_basic-six .block__container .block__title {
   width: fit-content;
   height: fit-content;
-  font-family: "Roboto Mono Bold", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 51px;
@@ -1787,7 +1799,7 @@ body {
   color: #F0F0F0;
   font-size: 48px;
   line-height: 63px;
-  font-family: "Roboto Mono Bold", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   display: inline-block;
   transform: rotateX(-90deg);
   -moz-transform: rotate(-90deg);
@@ -1806,7 +1818,7 @@ body {
 }
 .block_basic-six .block__container .block_six__list .block__list li .list__text .list__title {
   display: inline-block;
-  font-family: "Open Sans Bold", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -1866,7 +1878,7 @@ body {
   display: flex;
   flex-direction: row;
   text-align: left;
-  font-family: "Roboto Mono Bold", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 51px;
@@ -1901,7 +1913,7 @@ body {
   position: relative;
   list-style: none;
   z-index: 1;
-  font-family: "Roboto Mono Bold", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -3040,33 +3052,6 @@ body {
     display: none;
   }
 }
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/OpenSansRegular.ttf");
-  src: local("Open Sans Regular"), url("../fonts/OpenSansRegular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Open Sans Bold";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/OpenSansBold.ttf");
-  src: local("Open Sans Bold"), url("../fonts/OpenSansBold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/OpenSansRoboto.ttf");
-  src: local("Roboto"), url("../fonts/OpenSansRoboto.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Roboto Bold";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/RobotoBold.ttf");
-  src: local("Roboto Bold"), url("../fonts/RobotoBold.ttf") format("truetype");
-}
+
 
 /*# sourceMappingURL=main_page.css.map */
