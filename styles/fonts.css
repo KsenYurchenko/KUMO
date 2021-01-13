@@ -1,0 +1,32 @@
+
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/OpenSansRegular.ttf");
+    src: local("Open Sans Regular"), url("../fonts/OpenSansRegular.ttf") format("truetype");
+   }
+
+   @font-face {
+    font-family: "Open Sans Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/OpenSansBold.ttf");
+    src: local("Open Sans Bold"), url("../fonts/OpenSansBold.ttf") format("truetype");
+   }
+
+   @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/OpenSansRoboto.ttf");
+    src: local("Roboto"), url("../fonts/OpenSansRoboto.ttf") format("truetype");
+   }
+
+   @font-face {
+    font-family: "Roboto Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/RobotoBold.ttf");
+    src: local("Roboto Bold"), url("../fonts/RobotoBold.ttf") format("truetype");
+   }
