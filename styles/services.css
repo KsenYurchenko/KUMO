@@ -312,11 +312,12 @@ body {
 }
 
 .header {
-  position: absolute;
+  position: fixed;
   height: 60px;
   width: 100%;
   box-sizing: border-box;
-  background-color: transparent;
+  background-color: black;
+  opacity: 0.6;
   padding: 0 20%;
   z-index: 20;
 }
@@ -553,8 +554,11 @@ body {
   line-height: 95px;
   margin-top: 100px;
   margin-bottom: 100px;
+  letter-spacing: -0.02em;
+text-transform: uppercase;
 }
 .main .home_info {
+  width: 100%;
   max-width: 1920px;
   height: fit-content;
   display: flex;
@@ -792,6 +796,7 @@ body {
 }
 @media screen and (max-width: 1260px) {
   .main {
+    width: 100%
     max-width: 1260px;
   }
   .main .banner_home,
