@@ -586,7 +586,6 @@ body {
   justify-content: start;
   align-items: start;
   margin: 100px 0;
-  text-transform: uppercase;
 }
 .main .home_info .home_info__container .home_info__description {
   width: 100%;
@@ -1113,8 +1112,8 @@ body {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 150%;
+    font-size: 14px;
+    line-height: 14px;
     color: #c4c4c4;
     font-size: 12px;
     line-height: 16px;
