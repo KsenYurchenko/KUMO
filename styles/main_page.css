@@ -785,7 +785,7 @@ body {
   align-items: start;
 }
 .block_basic-second .block__container {
-  margin-left: 20%;
+  margin-left: 0%;
   margin-top: 150px;
   margin-bottom: 90px;
   width: 1240px;
@@ -803,7 +803,7 @@ body {
   align-items: start;
 }
 .block_basic-third .block__container {
-  margin-left: 20%;
+  margin-left: 0%;
   margin-top: 150px;
   margin-bottom: 90px;
   width: 1240px;
