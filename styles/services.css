@@ -355,7 +355,7 @@ body {
   width: 500px;
 }
 .header__nav .header__item {
-  font-family: Roboto, "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -463,7 +463,7 @@ body {
   display: inline-block;
   height: 35px;
   border-radius: 22px;
-  font-family: "Open Sans"? sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -999,7 +999,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 11px;
+  line-height: 12px;
   color: #C4C4C4;
   text-decoration: none;
   transition: 200ms;
